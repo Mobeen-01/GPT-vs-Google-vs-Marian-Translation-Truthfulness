@@ -36,6 +36,7 @@ Each translation is evaluated using **Sentence-BERT** to calculate semantic simi
 ✅ **Real-Time Progress Feedback:** Logs updates and creates outputs in structured folders.
 
 ✅ **Extensible Design:** Add new languages or models easily.
+
 ✅ **Robust Environment Setup:** Automatically manages Python dependencies.
 
 ---
