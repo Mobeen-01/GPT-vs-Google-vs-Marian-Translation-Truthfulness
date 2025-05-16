@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?style=flat\&logo=python)](https://www.python.org)
 [![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg?style=flat\&logo=python)](https://huggingface.co)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Translation Models](https://img.shields.io/badge/Models-Google%20%7C%20GPT-4%20%7C%20MarianMT-brightgreen.svg)]()
+[![Translation Models](https://img.shields.io/badge/Models-Google_GPT4_MarianMT-brightgreen)]()
 
 ---
 
@@ -22,12 +22,19 @@ Each translation is evaluated using **Sentence-BERT** to calculate semantic simi
 ## ✨ Features
 
 ✅ **Multi-Model Translation:** Supports Google Translate, OpenAI GPT-4 Turbo, and MarianMT for comparative evaluation.
+
 ✅ **Semantic Truthfulness Scoring:** Uses SBERT to measure translation quality and meaning preservation.
+
 ✅ **Automated Workflow:** Runs in modular steps across files (`marian.py`, `gpt.py`, `google_trans.py`, `Calculate_Truthfulness.py`).
+
 ✅ **Excel Reporting:** Outputs line-by-line similarity scores and average scores per language pair.
+
 ✅ **Language Coverage:** English ↔ Urdu, English ↔ Punjabi (Gurmukhi).
+
 ✅ **Line-Wise Dataset Processing:** Efficiently handles batch processing for larger inputs.
+
 ✅ **Real-Time Progress Feedback:** Logs updates and creates outputs in structured folders.
+
 ✅ **Extensible Design:** Add new languages or models easily.
 ✅ **Robust Environment Setup:** Automatically manages Python dependencies.
 
