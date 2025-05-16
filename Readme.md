@@ -147,7 +147,7 @@ This generates Excel reports with line-by-line SBERT similarity scores and overa
 
 ---
 
-## 🔹 Example Output
+<!-- ## 🔹 Example Output
 
 Excel output example (`Translated/marian/urdu_result.xlsx`):
 
@@ -157,7 +157,28 @@ Excel output example (`Translated/marian/urdu_result.xlsx`):
 * `Language Pair`
 * `Average Score`
 
----
+--- -->
+
+## 🔹 Example Output
+
+Excel output example (`Translated/marian/urdu_result.xlsx`):
+
+Each translation output folder (e.g., `Translated/marian/`, `Translated/gpt/`, `Translated/googletrans/`) contains Excel files with **line-by-line semantic similarity scores** calculated using **Sentence-BERT (SBERT)** for various language pairs. The structure looks like this:
+
+| eng_to_pa | eng_to_ur | pa_to_eng | pa_to_ur | ur_to_eng | ur_to_pa |
+|-----------|-----------|-----------|----------|-----------|----------|
+| 0.03      | 0.89      | 0.26      | 0.27     | 0.70      | 0.43     |
+| 0.05      | 0.80      | 0.12      | 0.10     | 0.82      | 0.05     |
+| ...       | ...       | ...       | ...      | ...       | ...      |
+| **Avg**   | **Avg**   | **Avg**   | **Avg**  | **Avg**   | **Avg**  |
+| **0.04**  | **0.845** | **0.19**  | **0.185**| **0.76**  | **0.24** |
+
+📊 **Key Columns:**
+- `eng_to_pa`, `eng_to_ur`, `pa_to_eng`, `pa_to_ur`, `ur_to_eng`, `ur_to_pa` – Language direction of the translation
+- Each cell – SBERT similarity score (truthfulness) for that line and language pair
+- Final row – Average truthfulness score per translation direction
+
+These structured reports help quantify and compare the semantic accuracy of translations across models and language pairs.
 
 ## 🎥 Demo & Walkthrough
 
@@ -185,7 +206,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## 🌟 Author
 
-**Mobeen Ahmad**
+**Muhammad Mobeen Tahir**
 [LinkedIn](https://linkedin.com/in/your-profile)
 [GitHub](https://github.com/yourusername)
 
