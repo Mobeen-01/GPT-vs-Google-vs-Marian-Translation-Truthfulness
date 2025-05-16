@@ -7,7 +7,7 @@
 
 ---
 
-## 🌐 Introduction
+## Introduction
 
 **Multilingual AI Translation & Truthfulness Evaluator** is a powerful, AI-driven framework for evaluating the semantic truthfulness and quality of machine translations across **English**, **Urdu**, and **Punjabi (Gurmukhi script)**. It integrates:
 
@@ -19,7 +19,7 @@ Each translation is evaluated using **Sentence-BERT** to calculate semantic simi
 
 ---
 
-## ✨ Features
+## Features
 
 ✅ **Multi-Model Translation:** Supports Google Translate, OpenAI GPT-4 Turbo, and MarianMT for comparative evaluation.
 
@@ -180,7 +180,7 @@ Each translation output folder (e.g., `Translated/marian/`, `Translated/gpt/`, `
 
 These structured reports help quantify and compare the semantic accuracy of translations across models and language pairs.
 
-## 🎥 Demo & Walkthrough
+<!-- ## 🎥 Demo & Walkthrough
 
 > Coming soon: A complete demo video will be available.
 
@@ -190,27 +190,28 @@ Stay tuned for:
 * Running each module step-by-step
 * Interpreting the final truthfulness reports
 
----
+--- -->
 
-## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🔧 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
-
----
-
+<!-- 
 ## 🌟 Author
 
 **Muhammad Mobeen Tahir**
 [LinkedIn](https://linkedin.com/in/your-profile)
 [GitHub](https://github.com/yourusername)
 
+--- -->
+## 🌟 Author
+
+**Muhammad Mobeen Tahir**
+
+- 🔗 [GitHub](https://github.com/Mobeen-01)
+- 🌐 [Portfolio Website](https://mobeen-01.github.io/Portfolio/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/muhammad-mobeen-tahir-81a65929b)
+
 ---
+
+
 
 ## 🎓 Skills You Can Tag (LinkedIn-Friendly)
 
@@ -224,3 +225,17 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 * Cloud Computing
 * Transformers
 * Software Development
+---
+
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🔧 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+
+---
